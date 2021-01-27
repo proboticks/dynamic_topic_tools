@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dynamic_topic_tools</name>
+  <version>0.0.1</version>
+  <description>The dynamic_topic_tools package forked from topic_tools</description>
+  <maintainer email="vivek@todo.todo">vivek</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>topic_tools</build_depend>
+  <depend>rospy</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>message_runtime</depend>
+</package>
+
