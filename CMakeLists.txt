@@ -23,7 +23,6 @@ find_package(OpenCV REQUIRED
 ## catkin specific configuration ##
 ###################################
 include_directories(
-  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -40,8 +39,6 @@ generate_messages(
 )
 
 catkin_package(
-  INCLUDE_DIRS include
-  LIBRARIES sim_builder
   CATKIN_DEPENDS std_msgs message_runtime
 )
 
